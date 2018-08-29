@@ -1,0 +1,22 @@
+{
+  "name": "node_command",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo": "./node_modules/ts-node/dist/bin.js ./scripts/echo.ts"
+  },
+  "bin": {
+    "echo": "ts-node ./scripts/echo.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.17.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.3"
+  }
+}
